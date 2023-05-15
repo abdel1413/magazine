@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Baskervville", serif;
+  color: linen;
+  background-color: rgb(20, 30, 40);
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway" sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: linen;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(
+      2rem 1fr
+    );
+  row-gap: 3rem;
+}
+blockquote {
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.heading {
+}
+
+.hero-title {
+}
+
+.hero-subtitle {
+}
+
+.social-icons {
+}
+
+.text {
+}
+
+.first-paragraph {
+}
+
+.quote {
+}
+
+.text-with-images {
+}
+
+.brief-history {
+}
+.list-title {
+}
+
+.list-subtitle {
+}
+
+.image-wrapper {
+}
+
+.image-1 {
+}
+
+.image-2 {
+}
+.image-3 {
+}
